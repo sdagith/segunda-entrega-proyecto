@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap" rel="stylesheet">
+
+    <!--Link de estilos Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Link Animacion-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <title>KINEP - Contacto</title>
+</head>
+
+<body class="body-propio">
+    <!-- Inicio contenedor página -->
+
+    <div class="main-wrapper"> 
+
+        <!-- Header con nav -->
+        <header>
+            <nav class="nav-propio">
+                <a href="../index.html"><img src="../img/logobco.png" alt="Logo KINEP" width="140vw" height="140vh" class="efectonav"></a>
+
+                <ul>
+                    <li class="efectonav">
+                        <a href="../index.html" class="a-propio">Inicio</a>
+                    </li>
+
+                    <li class="efectonav">
+                        <a href="especialidades.html" class="a-propio">Especialidades</a>
+                    </li>
+                        
+                    <li class="efectonav">
+                        <a href="galeria.html" class="a-propio">Galería</a>
+                    </li>
+                        
+                    <li class="efectonav">
+                        <a href="nosotros.html" class="a-propio">Nosotros</a>
+                    </li>
+                        
+                    <li class="efectonav">
+                        <a href="contacto.html" class="a-propio">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--Main-->
+        <main>
+            
+            <section class="intro">
+                <h2 class="animate__animated animate__fadeInDown">CONTÁCTENOS</h2>
+            </section>
+            
+            <section class="info">
+                <div class="div-contacto">
+                    <h3>Teléfono</h3>
+                    <p>WhatsApp: 11-1234-5678</p>
+                </div>
+
+                <div class="div-contacto">
+                    <h3>Formulario de contacto</h3>
+                    
+                    <!--Formulario con elementos Bootstrap-->
+                    <form>
+                        <!--Nombre-->
+                        <div class="form-margen">
+                            <div class="input-group">
+                                <span class="input-group-text">Nombre y Apellido</span>
+                                <input type="text" aria-label="First name" class="form-control">
+                                <input type="text" aria-label="Last name" class="form-control">
+                            </div>
+                        </div>
+                        
+                        <!--Sexo-->
+                        <div class="form-margen">
+                            Sexo:
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  No contesta
+                                </label>
+                            </div>
+                              
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Mujer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Hombre
+                                </label>
+                            </div>
+                        </div>
+                                                
+                        <!--Especialidad-->
+                        <div class="form-margen">                            
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Elija Especialidad a consultar</option>
+                                <option value="Kinesiología">Kinesiología neuro pediátrica</option>
+                                <option value="Estimulación">Estimulación temprana</option>
+                                <option value="Rehabilitación">Rehabilitación vestibular</option>
+                              </select>
+                        </div>
+                        
+                        <!--Mail y Consulta-->
+                        <div class="form-margen">                            
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@mail.com">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta debajo:</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>                            
+                        </div>
+
+                        <!--Botones-->
+                        <div class="form-margen">
+                            <button type="button" class="btn btn-primary btn-sm">Enviar</button>
+                            <button type="button" class="btn btn-secondary btn-sm">Borrar todo</button>
+                        </div>
+                        <!-- <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar todo"> -->
+                    </form>
+                </div>
+            </section>
+
+            <section class="aside">
+                <h3> Dirección: Juncal 3481, Bs. As.</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d410.59966225079904!2d-58.4122239!3d-34.5839952!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57e634c092f%3A0xecb3795b59a8d8b2!2sJuncal%203481%2C%20C1425AYU%20CABA!5e0!3m2!1ses-419!2sar!4v1649025926718!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+        </main>
+
+        <!--Footer-->
+        <footer class="footer-propio">
+            <a class="efectonav" href="https://web.whatsapp.com/" target="_blank"><img src="../img/wapp.png" alt="Logo WhatsApp" width="25px" height="25px" class="img-footer"></a> 
+            <a class="efectonav" href="https://es-la.facebook.com/" target="_blank"><img src="../img/facebook.png" alt="Logo Facebook" width="25px" height="25px" class="img-footer"></a> 
+            <a class="efectonav" href="https://www.instagram.com/" target="_blank"><img src="../img/ig.png" alt="Logo instagram" width="25px" height="25px" class="img-footer"></a>
+        </footer>
+    </div>
+
+    <!--Script Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
